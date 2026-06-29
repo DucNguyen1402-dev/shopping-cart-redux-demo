@@ -1,4 +1,4 @@
-import { addToCart } from "../features/Cart/CartSlice";
+import { addToCart } from "../redux/cart/cartSlice";
 import { useDispatch } from "react-redux";
 
 export default function ProductCard({ product }) {
