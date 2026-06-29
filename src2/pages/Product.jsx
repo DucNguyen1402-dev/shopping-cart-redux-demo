@@ -20,8 +20,8 @@ const products = [
 
 function Products() {
   return (
-    <div>
-      <h2>Products</h2>
+    <div className ="space-y-5">
+      <h2 className ="text-lg font-bold">Products</h2>
 
       {products.map((product) => (
         <ProductCard
